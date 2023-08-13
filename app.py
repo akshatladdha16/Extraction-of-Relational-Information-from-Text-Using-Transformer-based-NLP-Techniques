@@ -18,7 +18,7 @@ st.set_page_config(page_title="Relational Info extraction", page_icon=":tada:",l
 
 # header section 
 with st.container():
-    st.subheader("Hi, I'm Akshat :wave: , Undergrad student at NIT Warangal and here's my submission for ")
+    st.subheader("Hi, I'm Akshat :wave:")
     st.title("Project: Relational Information Extraction Application")
     st.write("[Project Repo >](https://github.com/akshatladdha16/Extraction-of-Relational-Information-from-Text-Using-Transformer-based-NLP-Techniques)")
 
@@ -60,7 +60,7 @@ with st.container():
     html = spacy_streamlit.visualize_parser(doc)
     st.components.v1.html(f"<div style='width:100%;'>{html}</div>")
     st.write("One Rule Based Relationship extraction is done in [Jupyter Notebook](https://github.com/akshatladdha16/Extraction-of-Relational-Information-from-Text-Using-Transformer-based-NLP-Techniques/blob/main/Relational%20Information%20of%20Extracted%20Entities.ipynb)") 
-    st.write("Would be happy to learn from constructive feedback. If any reach out to me here: [Email](mailto:laddhaakshatrai@gmail.com) ")
+    st.write("Please do give your feedback.Reach out to me here: [Email](mailto:laddhaakshatrai@gmail.com) ")
 
 
 
